@@ -1,12 +1,12 @@
 const http = require('http');
 
-
 const routerProductos = require('./router/routerProductos.js');
 const express = require('express');
 const app = express();
 
 app.get('/', (req, res)=>{
     console.log('Hola');
+    res.send('hola');
 });
 
 
